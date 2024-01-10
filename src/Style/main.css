@@ -1,0 +1,27 @@
+.maincontainer {
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+  background-color: gray;
+  grid-template-columns: auto;
+}
+.navbar {
+  text-decoration: none;
+  color: white;
+  font-size: bold;
+}
+.linkname {
+  width: 100%;
+  text-align: center;
+  justify-content: flex-end;
+  gap: 30px;
+  display: flex;
+  text-decoration: none;
+}
+.navbuttom {
+  background-color: purple;
+  width: 120px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
