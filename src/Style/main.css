@@ -25,3 +25,16 @@
   margin-top: 20px;
   margin-right: 20px;
 }
+.datanav {
+  display: flex;
+}
+.datadistruring {
+  background-color: aqua;
+  color: blueviolet;
+  text-align: center;
+}
+.dataupdate {
+  background-color: rgb(255, 162, 0);
+  color: rgb(218, 181, 252);
+  text-align: center;
+}

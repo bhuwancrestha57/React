@@ -15,12 +15,14 @@ const DataUpdate = () => {
 
   return (
     <>
-      <div>
-        <h1>Data Update</h1>
+      <div className="dataupdate">
+        <div>
+          <h1>Data Update</h1>
+        </div>
+        <div>Name:{changeData?.name}</div>
+        <div>Age:{changeData?.age}</div>
+        <div>Address:{changeData?.address}</div>
       </div>
-      <div>Name:{changeData?.name}</div>
-      <div>Age:{changeData?.age}</div>
-      <div>Address:{changeData?.address}</div>
     </>
   );
 };

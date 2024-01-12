@@ -1,5 +1,6 @@
 import React from "react";
 import DataUpdate from "./DataUpdate";
+import ArrayDestructuring from "./ArrayDestructuring";
 
 const DataDestructuring = () => {
   //   data add in distructureing
@@ -24,8 +25,8 @@ const DataDestructuring = () => {
   };
   console.log("concatData", concatData);
   return (
-    <>
-      <div>
+    <div className="datanav">
+      <div className="datadistruring">
         <div>Name:{name}</div>
         <div>Age:{age}</div>
         <div>Address:{address}</div>
@@ -34,7 +35,10 @@ const DataDestructuring = () => {
       <div>
         <DataUpdate />
       </div>
-    </>
+      <div>
+        <ArrayDestructuring />
+      </div>
+    </div>
   );
 };
 
