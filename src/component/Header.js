@@ -31,6 +31,10 @@ const Header = () => {
       name: "Callback",
       link: "/callback",
     },
+    {
+      name: "Data Destructuring",
+      link: "/datadestructuring",
+    },
   ];
 
   return (

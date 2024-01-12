@@ -12,6 +12,7 @@ import UserDashBoard from "./UserDashBoard";
 import UserFilter from "./UserFilter";
 // import AppLayout from "./layout/AppLayout";
 import UserApp from "./UserApp";
+
 const Filter = lazy(() => import("../component/projectarray/Filter"));
 const DashBoardLayout = lazy(() => import("../layout/DashBoardLayout"));
 const Header = lazy(() => import("./Header"));
@@ -22,6 +23,9 @@ const AppLayout = lazy(() => import("../layout/AppLayout"));
 
 const CallbackParent = lazy(() =>
   import("../component/callback/CallbackParent")
+);
+const DataDestructuring = lazy(() =>
+  import("../component/destructuring/DataDestructuring")
 );
 
 export const Routers = createBrowserRouter(
@@ -42,6 +46,7 @@ export const Routers = createBrowserRouter(
 
       <Route path="/header" element={<Header />} />
       <Route path="/callback" element={<CallbackParent />} />
+      <Route path="/datadestructuring" element={<DataDestructuring />} />
     </Route>
   )
 );
