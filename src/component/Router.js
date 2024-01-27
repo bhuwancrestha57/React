@@ -27,6 +27,7 @@ const CallbackParent = lazy(() =>
 const DataDestructuring = lazy(() =>
   import("../component/destructuring/DataDestructuring")
 );
+const ParentHoc = lazy(() => import("./hoc/ParentHoc"));
 
 export const Routers = createBrowserRouter(
   createRoutesFromElements(
@@ -47,6 +48,7 @@ export const Routers = createBrowserRouter(
       <Route path="/header" element={<Header />} />
       <Route path="/callback" element={<CallbackParent />} />
       <Route path="/datadestructuring" element={<DataDestructuring />} />
+      <Route path="/parenthoc" element={<ParentHoc />} />
     </Route>
   )
 );

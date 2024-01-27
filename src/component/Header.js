@@ -35,6 +35,10 @@ const Header = () => {
       name: "Data Destructuring",
       link: "/datadestructuring",
     },
+    {
+      name: "Parent Hoc",
+      link: "/parenthoc",
+    },
   ];
 
   return (
